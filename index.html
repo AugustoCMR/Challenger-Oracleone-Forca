@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+
+<html lang="pt-br">
+	<head>
+		<meta charsert="UTF-8">	
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<meta http-equiv="X-UA-Compatible" content="ie=edge">
+		<title>Jogo da Forca</title>
+		<link rel="stylesheet" href="assets/css/reset.css">
+		<link rel="stylesheet" href="assets/css/style.css">
+
+	</head>
+	<body>
+
+		<canvas class="invisivel" width="1280" height="800"></canvas>
+
+		<div class="letrasCorretas">
+			<input class="fake-input" type="text"></input>
+		</div>
+
+		<div class="letrasErradas"></div>
+
+		<div class="letraRepetida"> Você já usou essa letra! </div>
+
+		<div class="popup-container">
+			<div class="popup">
+				<h2 id="mensagem"></h2>
+				<button id="btn-jogar" onclick=" reniciarJogo()">
+					Reiniciar
+				</button>				
+			</div>
+		</div>
+		
+		<header class="header-container">
+			<div class = "header">
+				<h1 class="titulo-principal"><a href=https://www.alura.com.br/><img class="img-alura" src="assets/img/logo-alura.png"></a>Jogo da Forca - Challenger Oracle One</h1>
+			</div>
+		</header>
+
+		<main class="main-container">
+			<div class="btn">
+				<div class="gameMenu">				
+					
+					<button class="btn-iniciar">INICIAR JOGO</button>
+					
+					<button class="btn-adicionar">ADICIONAR PALAVRA</button>
+				
+				</div>
+			</div>
+		</main>
+
+		<footer class="rodape">
+			<p class="nome-rodape">Augusto Ribeiro</p>
+			<a href= https://linkedin.com/in/rbraugusto><img class="logo-linkedin"src="assets/img/linkedin.png"> </a>
+			<a href= https://github.com/AugustoCMR> <img src="assets/img/github.png"> </a>
+		</footer>
+	</body>
+
+<script src="assets/js/script.js"></script>
+
+
+
+</html>

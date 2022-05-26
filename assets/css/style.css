@@ -1,0 +1,166 @@
+.header-container {
+	position: relative;
+	margin-top: 2rem; 
+	
+}
+
+.letrasCorretas{
+	font-size: 45px;
+	text-align: center;
+	color: blue;
+	font-family: 'Montserrat', sans-serif;
+}
+
+.fake-input {
+	border: transparent;
+    color: transparent;
+    background-color: transparent;
+    width: 1px;
+    height: 1px;
+}
+
+.letrasErradas {
+	font-size: 32px;
+	text-align: center;
+	font-family: 'Montserrat', sans-serif;
+}
+
+.letrasErradas span {
+	margin: 0 2px;
+}
+
+.letraRepetida {
+	background: #309E78;
+	border-radius: 10px 10px 0 0;
+	padding: 13px 20px;
+	position: absolute;
+	transition: transform 0.3s ease-in-out;
+	color: #fff;
+}
+
+
+
+.img-alura{
+	margin-right: 3rem;
+	
+}
+
+.titulo-principal {
+
+	text-align: center;
+	font-size: 2em;
+	background: linear-gradient(to bottom, rebeccapurple, steelblue, turquoise);
+    color: black;
+  	font-weight: bolder;
+  	-webkit-background-clip: text;
+  	-webkit-text-fill-color: transparent;
+    font-family: 'Mukta Malar', sans-serif;
+	
+}
+
+.btn {
+	display: grid;
+	justify-content: center;
+	
+}
+
+.btn-iniciar {
+	display: block;
+	margin-left: 2.5rem;
+	margin-top: 10rem;
+	padding: 1rem;
+	text-decoration: none;
+}
+
+.btn-adicionar {
+	margin-top: 2rem;
+	padding: 1rem;
+}
+
+.btn-iniciar, .btn-adicionar {
+    font-size: 1.5rem;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    background: linear-gradient(to bottom, rebeccapurple, steelblue, turquoise);
+    color: black;
+  	font-weight: bolder;
+  	-webkit-background-clip: text;
+  	-webkit-text-fill-color: transparent;
+    font-family: 'Mukta Malar', sans-serif;
+ }
+
+.rodape {
+	margin-top: 10rem;
+	text-align: center;
+	font-size: 1.5em;
+	background: linear-gradient(to bottom, rebeccapurple, steelblue, turquoise);
+    color: black;
+  	font-weight: bolder;
+  	-webkit-background-clip: text;
+  	-webkit-text-fill-color: transparent;
+    font-family: 'Mukta Malar', sans-serif;
+}
+
+
+.nome-rodape {
+	margin: 1rem;
+}
+
+.logo-linkedin {
+	margin-right: 1rem;
+}
+
+
+/* javascript */
+
+.invisivel {
+	display: none;
+}
+
+#mensagem {
+	font-size: 2rem;
+	text-align: center;
+    color: #0F384B;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.popup-container {
+    background-color: rgba(0, 0, 0, 0.849);
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    /* display: flex; */
+    display: none;
+    align-items: center;
+    justify-content: center;
+ }
+
+.popup {
+    background: #F9FFFD;
+    border-radius: 5px;
+    box-shadow: 0 15px 10px 3px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    text-align: center;
+}
+
+.popup button {
+    cursor: pointer;
+    background-color: #F25F35;
+    border: 2px;
+    margin-top: 20px;
+    padding: 12px 20px;
+    font-size: 16px;
+    border-radius: 15px;
+    width: 200px;
+    color: #F9FFFD;
+    font-family: 'Montserrat', sans-serif;
+
+ }
+
+
+
+
+
