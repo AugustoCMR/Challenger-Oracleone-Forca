@@ -13,8 +13,6 @@ let palavras = ["CACHORRO","TUCANO", "MACACO", "RINOCERONTE", "JACARE","LARANJA"
 
 let palavraAleatoria = palavras[Math.floor(Math.random() * palavras.length)]
 
-console.log(palavraAleatoria);
-
 let letrasErradas = []
 let letrasCorretas = []
 var morte = 0
